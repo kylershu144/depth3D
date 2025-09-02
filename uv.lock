@@ -455,6 +455,7 @@ name = "depth3d"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "hf-xet" },
     { name = "ipywidgets" },
     { name = "jupyter" },
     { name = "markupsafe" },
@@ -469,6 +470,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "hf-xet", specifier = ">=1.1.9" },
     { name = "ipywidgets", specifier = ">=8.1.7" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "markupsafe", specifier = "==2.1.5" },
